@@ -1,7 +1,62 @@
+body {
+  background-color: #f0ece2;
+  font-family: sans-serif;
+}
+
 h1 {
   text-align: center;
+  font-size: 48px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  margin: 0 0 5px;
 }
 
 footer {
   text-align: center;
+  font-size: 10px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cities {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
+  padding: 20px 0;
+}
+
+.cities:last-child {
+  border-bottom: none;
+}
+
+.time {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px;
+  opacity: 75%;
+}
+
+.time small {
+  font-size: 12px;
+  vertical-align: middle;
 }
