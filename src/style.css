@@ -25,6 +25,9 @@ select {
   border-radius: 5px;
 }
 
+a {
+  font-size: 10px;
+}
 .container {
   max-width: 400px;
   border-radius: 10px;
@@ -37,9 +40,9 @@ select {
 .cities {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 15px 0;
   border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .cities:last-child {
